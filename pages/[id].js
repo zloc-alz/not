@@ -4,8 +4,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import VpnKeyIcon from '@mui/icons-material/VpnKey';
-// import MessageCard from "../components/MessageCard";
-
 
 export default function Note({ message }) {
     const router = useRouter()
