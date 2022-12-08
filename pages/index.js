@@ -1,11 +1,9 @@
-import { ThreeDRotation } from '@mui/icons-material'
 import { Box, Button, ButtonGroup, Card, TextField, Typography } from '@mui/material'
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
-// import Tilt from 'react-tilt'
 import copy from 'copy-to-clipboard'
 
 export default function Home() {
@@ -57,25 +55,17 @@ export default function Home() {
         sx={{
           marginTop: 1,
           transition: 'all 0.5s ease',
-          ":hover": {
+          // ":hover": {
             // backgroundColor: "rgba(145, 92, 182, 1)",
             // boxShadow: `0 5px 15px ${primary.main}`,
-          }
+          // }
         }}
         noValidate
         autoComplete="off"
         action="#"
         method="POST"
         onSubmit={(e) => handleSubmit(e)}
-      // elevation="24"
       >
-        {/* <Tilt className="Tilt" options={{ max: 15, scale: 1 }}>
-          <Typography variant="h2" sx={{
-            justifyContent: "center",
-          }}>
-            Notez
-          </Typography>
-        </Tilt> */}
         <Card
           variant="outlined" sx={{
             padding: 2
@@ -115,6 +105,6 @@ export default function Home() {
           }
         </Card>
       </Box>
-    </div >
+    </div>
   )
 }
