@@ -1,6 +1,6 @@
 # not (under construction)
 
-Self-destructing notes with next.js, prisma, and planetscale.
+Self-destructing notes with next.js, prisma and planetscale.
 
 ---
 
