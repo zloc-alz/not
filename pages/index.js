@@ -82,8 +82,7 @@ export default function Home() {
             onChange={(e) => setMessage(e.target.value)}
             value={message}
             sx={{
-              marginBottom: 2,
-            }}
+              marginBottom: 2,            }}
           />
           <Button disableRipple="true" variant="outlined" type="submit">
             Create Note

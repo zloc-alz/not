@@ -2,8 +2,7 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider        = "prisma-client-js"
-  previewFeatures = ["referentialIntegrity"]
+  provider = "prisma-client-js"
 }
 
 datasource db {
@@ -14,6 +13,6 @@ datasource db {
 
 model Message {
   id      String @id @default(cuid())
-  message String
-  // message String @db.LongText
+  // message String
+  message String @db.LongText
 }
